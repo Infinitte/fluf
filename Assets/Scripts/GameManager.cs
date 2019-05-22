@@ -8,28 +8,56 @@ public class GameManager : MonoBehaviour
     private GameObject player;
     private int levelX;
     private int levelY;
-    // Start is called before the first frame update
+    static Vector2 posPlayer = new Vector2 (-6f, -2.06f);
+
     void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindWithTag("Player");
+        if (player == null)
+        {
+            InstantiatePlayer();
+        }
         SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void InstantiatePlayer()
+    {
+        if (posPlayer.x<=-6.6f)
+        {
+            posPlayer.x = 6.5f;
+            posPlayer.y = -2.06f;
+        }
+        else if (posPlayer.x >= 6.6f)
+        {
+            posPlayer.x = -6.5f;
+            posPlayer.y = -2.06f;
+        }
+        Vector3 playerPostion = new Vector3(posPlayer.x, posPlayer.y, 0);
+
+        player = (GameObject)Instantiate(Resources.Load("Fluf"), playerPostion, Quaternion.identity);
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("Scene: " + scene.name);
         string[] level = scene.name.Split('-');
         levelX = int.Parse(level[0]);
-        levelY = int.Parse(level[1]);
-        Debug.Log("SceneY: " + levelY);
+        levelY = int.Parse(level[1]); 
     }
 
-    // Update is called once per frame
     void Update()
-    { 
-        if (player.transform.position.x>=6.6)
+    {
+        if (player.transform.position.x>=6.6f)
         {
-            string nextLevel = string.Format("{0}-{1}", levelX, levelY+1);
+            posPlayer = player.transform.position;
+            string nextLevel = string.Format("{0}-{1}", levelX+1,levelY);
+            Debug.Log("Next Level:" + nextLevel);
+
+            SceneManager.LoadScene(nextLevel);
+        }
+        else if (player.transform.position.x <= -6.6f)
+        {
+            posPlayer = player.transform.position;
+            string nextLevel = string.Format("{0}-{1}", levelX-1, levelY);
             Debug.Log("Next Level:" + nextLevel);
 
             SceneManager.LoadScene(nextLevel);
