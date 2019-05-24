@@ -2,65 +2,95 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     private GameObject player;
+    public GameObject playerPrefab;
     private int levelX;
     private int levelY;
-    static Vector2 posPlayer = new Vector2 (-6f, -2.06f);
+    static string lastLevel = "";
+    static Vector3 posPlayer = new Vector3 (-6f, -2.06f, 0f);
+    static Vector2 velocityPlayer = new Vector2(0, 0);
+    static int transitionMode = 0; // 0: scroll o caida, 1: salto, 2: puerta, 3: muerte, 4: teleport
 
     void Awake()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
         player = GameObject.FindWithTag("Player");
         if (player == null)
         {
             InstantiatePlayer();
         }
-        SceneManager.sceneLoaded += OnSceneLoaded;
+        else
+        {
+            player.transform.SetPositionAndRotation(posPlayer, Quaternion.identity);
+        }
     }
 
     void InstantiatePlayer()
     {
-        if (posPlayer.x<=-6.6f)
-        {
-            posPlayer.x = 6.5f;
-            posPlayer.y = -2.06f;
-        }
-        else if (posPlayer.x >= 6.6f)
-        {
-            posPlayer.x = -6.5f;
-            posPlayer.y = -2.06f;
-        }
-        Vector3 playerPostion = new Vector3(posPlayer.x, posPlayer.y, 0);
-
-        player = (GameObject)Instantiate(Resources.Load("Fluf"), playerPostion, Quaternion.identity);
+        player = Instantiate(playerPrefab, posPlayer, Quaternion.identity) as GameObject;
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         string[] level = scene.name.Split('-');
         levelX = int.Parse(level[0]);
-        levelY = int.Parse(level[1]); 
+        levelY = int.Parse(level[1]);
+        SceneManager.MoveGameObjectToScene(player, scene);
+        if (lastLevel != "")
+        {
+            SceneManager.UnloadSceneAsync(lastLevel);
+        }
     }
 
     void Update()
     {
-        if (player.transform.position.x>=6.6f)
+        if (player.transform.position.x>=8.6f)
         {
             posPlayer = player.transform.position;
+            velocityPlayer = player.GetComponent<Rigidbody2D>().velocity;
             string nextLevel = string.Format("{0}-{1}", levelX+1,levelY);
-            Debug.Log("Next Level:" + nextLevel);
+            lastLevel = string.Format("{0}-{1}", levelX, levelY);
+            posPlayer.x = -8.5f;
+            transitionMode = 0;
 
-            SceneManager.LoadScene(nextLevel);
+            SceneManager.LoadScene(nextLevel, LoadSceneMode.Additive);
         }
-        else if (player.transform.position.x <= -6.6f)
+        else if (player.transform.position.x <= -8.6f)
         {
             posPlayer = player.transform.position;
+            velocityPlayer = player.GetComponent<Rigidbody2D>().velocity;
             string nextLevel = string.Format("{0}-{1}", levelX-1, levelY);
-            Debug.Log("Next Level:" + nextLevel);
+            lastLevel = string.Format("{0}-{1}", levelX, levelY);
+            posPlayer.x = 8.5f;
+            transitionMode = 0;
 
-            SceneManager.LoadScene(nextLevel);
+            SceneManager.LoadScene(nextLevel, LoadSceneMode.Additive);
+        }
+        else if (player.transform.position.y <= -3f)
+        {
+            posPlayer = player.transform.position;
+            velocityPlayer = player.GetComponent<Rigidbody2D>().velocity;
+            string nextLevel = string.Format("{0}-{1}", levelX, levelY-1);
+            lastLevel = string.Format("{0}-{1}", levelX, levelY);
+            posPlayer.y = 6.9f;
+            transitionMode = 0;
+
+            SceneManager.LoadScene(nextLevel, LoadSceneMode.Additive);
+        }
+        else if (player.transform.position.y >= 7f)
+        {
+            posPlayer = player.transform.position;
+            velocityPlayer = player.GetComponent<Rigidbody2D>().velocity;
+            string nextLevel = string.Format("{0}-{1}", levelX, levelY+1);
+            lastLevel = string.Format("{0}-{1}", levelX, levelY);
+            posPlayer.y = -2.5f;
+            transitionMode = 1;
+
+            SceneManager.LoadScene(nextLevel, LoadSceneMode.Additive);
         }
     }
 }
