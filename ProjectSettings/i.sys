@@ -1,0 +1,113 @@
+#EXTM3U
+#EXTINF:-1 logo="http://kabble.duckdns.org:9981/tvh/imagecache/174713" tvg-id="6a5d9c6b5c4b7eba912a7d39b6982ac1",ARTE
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1805409642?ticket=B429E1E1AB62BED62BF6FCCFBB30CDD324817228&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MV3.png" tvg-id="4ff4fb539f7c0d884c74f6a7eacaf608",#0 HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1409021007?ticket=FEF42877F13BFA5E2D10FC7741CDE5A3C5A9F564&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/VAMOSD.png" tvg-id="4d96f7ac65dc8001ff1980a28ab3c03f",#VAMOSHD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/754423373?ticket=BF1999435D2F29A6977FFF1958CEB7C4F8D5ECA8&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CPSER.png" tvg-id="90aff9480c79cce6505094b704d4c237",M. SERIES  2 HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1224322960?ticket=90B49AE3278E1A880CFA0DE1DA17B093AA945B34&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MV2.png" tvg-id="84336f3c427add109afbd413bcf39e1e",M. SERIES HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1013920644?ticket=E06AD6CBD75534EBD36B92F8F952C93203B5C2EF&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/FOXGE.png" tvg-id="7470f4db93d59f7729167b17b869d2ab",FOX HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1542746228?ticket=B5316FC869A063DEC4D97BA32B0350EE94BC1A35&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/TNT.png" tvg-id="056690775a2f3fce2a1184156657929e",TNT HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2005952005?ticket=7708419A6B200F5C0837AD1F91E9533B92BCA674&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/PCM.png" tvg-id="14367d987110d1fb8f2e2b18d2987d48",COMEDYCENTRALHD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/410859028?ticket=6931F6179722DBF4CF641D13238562AF8C483C39&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CL13.png" tvg-id="0fe668fcaf1c167969bf7a2048ff7e14",CALLE 13 HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2087249423?ticket=9630A137CABB87F13078D8890259B0741E4D9B59&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/COSMO.png" tvg-id="5004931a63801cc667918971c1279d83",COSMO HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/445842512?ticket=C782E5E5870A473ACC7F98056C9AAF712E57006A&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/AMC.png" tvg-id="6ead5652f8e75f0db24f0a80c1900a49",AMC HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1381412206?ticket=6BD9AEE1F7A9C32396C8DE97B638F07929A6965E&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/FOXCR.png" tvg-id="cfde8d4b38b9131b1d08b13e04709997",FOX LIFE HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1267588815?ticket=744CE5E1B54AEB3C8F3DA008A0C3711C8799F034&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CHAP2.png" tvg-id="c69c4d5c20b897ce47c11ef2d2f84247",M.LCAMPEON2
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1548590278?ticket=124F94C193281A160C2B29BB6D80F4C497F0320F&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/SCI-FI.png" tvg-id="7cc769f0c7b5ca3887a1ba9eaf659095",M. LaLiga 2 HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1885980540?ticket=D3A8780EDF10958E90C7FBA18A39386D2D363B89&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MTV.png" tvg-id="80b73008084aef0d7678f4a6ac3c37be",MTV ESPAÑA
+http://kabble.duckdns.org:9981/tvh/stream/channelid/137410432?ticket=AE4D46D2D08C47990E65930738AAE3273573F74D&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CHAP1.png" tvg-id="ac271f04f35fa40166424961ee074262",M.LCAMPEON1
+http://kabble.duckdns.org:9981/tvh/stream/channelid/69150636?ticket=A72DC5B197FADE55E99C8C431B09B6CDDFBDAD70&profile=pass
+#EXTINF:-1 logo="https://www.movistarplus.es/recorte/m-NEO/canal/CPXTRA.png" tvg-id="3d02c4f5e9be2b617b2b88d00cac9498",M.CineDoc&Roll
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1975779901?ticket=6AAE6442277B2A95BB7A49836242B23F5C716C06&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MCRIM.png" tvg-id="204c0db033d585262c1faecf8d6f11ce",MLaCasadePapel
+http://kabble.duckdns.org:9981/tvh/stream/channelid/806177824?ticket=5DD6FE69C53A694E5D48EE8D3C463CDDA001BDF8&profile=pass
+#EXTINF:-1 logo="http://kabble.duckdns.org:9981/tvh/imagecache/170" tvg-id="ffd402095a7ec5d94144dc4f6b0b5a4f",M. ACCIÓN HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/151180543?ticket=E51E66A29B52EF1825614F443A6507C18D3E83B9&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CPCOME.png" tvg-id="a043373b08f86bbf6e18896e58f0fb07",M.COMEDIA HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/993477536?ticket=B5E02FC0668F3591707839C939088D2B53606AC8&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CPCOLE.png" tvg-id="03f716423f9b505af6d4f7eb94f47bd8",M. DRAMA HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1108801283?ticket=E9474FC0167A90D3B234107E6790FC520B44E701&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/DCESP.png" tvg-id="9e24a28b8c570fc41cbb9ecf3f8eb511",M. Cine Español
+http://kabble.duckdns.org:9981/tvh/stream/channelid/195175582?ticket=3F345B4E54EC3CE22CCAAE77F54022946117B858&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/TCM.png" tvg-id="1487e267c26a19f61135fe1cd74492be",TCM HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1742898964?ticket=F41AD46BAF28519F915B066E4CF02A7C4E8B25D1&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/HOLLYW.png" tvg-id="a4ce7757725791e4d5f021c35dea69c4",HOLLYWOODHD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1467469476?ticket=D0E16A2D91EE60A6AAFE6CA2FB518DB78DCE251C&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/SUNDAN.png" tvg-id="d72fe87bf41af3a1d601bd5f1c4e9de2",SUNDANCE TV
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2078814167?ticket=1CD03E8368E58C2CDBABC61C7050E512B7D982FF&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/PARCH.png" tvg-id="bdc33033a47d807a98fa21ff692bc70e",PARAMOUNT
+http://kabble.duckdns.org:9981/tvh/stream/channelid/858833853?ticket=B0F05CCE1BCDEBE342501DBC878F8A0C5775BDEA&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MLIGA.png" tvg-id="120bfbfcd2d339e401143dfff9c9bfc8",M. LaLiga HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2096827154?ticket=5A0D8CB41008DEF19E7C93B9D1FEC2B78FA4CC9D&profile=pass
+#EXTINF:-1 logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG1.png" tvg-id="2d7f4476cf84280e19e502a95b478d6b",PARAMOUNT
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1984200493?ticket=BBB858CD4E9AFAFE73D596E254076F448FE1B5A5&profile=pass
+#EXTINF:-1 logo="https://www.movistarplus.es/recorte/m-NEO/canal/MLIG2.png" tvg-id="5f27f0bc026ee9afe67c20d05ad23b5c",M. LaLiga 2
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1022371679?ticket=C40728F23FCF4AEB2A9AFC223C76D209183A2353&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CHAPIO.png" tvg-id="1209f37b9d7907e3c699a45056e9ca7f",M.LCAMPEONES
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2079525138?ticket=3CF61A9B413E463F1FD198A154C581BFB7923E7C&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CPDEP.png" tvg-id="ce4e09f1477f4c590c66dc7698e0e0bf",M. DEPORTESHD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1896435406?ticket=B43A00B4FB9646E3B62E9278237070100165288E&profile=pass
+#EXTINF:-1 logo="https://www.movistarplus.es/recorte/m-NEO/canal/ARTHUR.png" tvg-id="0c40210acae4f3bf7d6ef7fc8b5227f1",M. DEPORTES1HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/169951244?ticket=F576F66132D08599F322077D4623DFA48763F854&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MVF1.png" tvg-id="5e53f9df329ceb673b638a8c2f1cf81d",M.FORMULA1HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1610175326?ticket=26D273A2484240ADB35D93F57D73B4472CAC593E&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/GOLF%2B.png" tvg-id="4e5d268e145862aab711d0e8c280b913",M. GOLF HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/237395278?ticket=810759800A64ED7E23731549841133245119299C&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/ESP.png" tvg-id="e36cbfdf2213e8267b7dc13bcd97ebcc",EUROSPORT1HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1606380771?ticket=1387F6E1DE09C3F34C546DC69F62F12AF33B59D7&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/ESP2.png" tvg-id="5a82765c560aca8ecf3eaaa65a90f1bc",M.LCAMPEON5
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1551270490?ticket=C653E33A0015C884DD18083AB1415C024847119A&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/GOL.png" tvg-id="e78bb7223bd3f82c2a5974280f411eef",GOL
+http://kabble.duckdns.org:9981/tvh/stream/channelid/582454247?ticket=B630006250FFA54321C187B2D5F73FCF9E9536CD&profile=pass
+#EXTINF:-1 logo="http://kabble.duckdns.org:9981/tvh/imagecache/177" tvg-id="d5d04d6a68015d75fdf4169dc7b32db9",CAZA Y PESCA
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1783484629?ticket=A2D74311F541EEF04AD742246761A6AF2FC6924C&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CAZPES.png" tvg-id="c68ef7e4a91b79cb477f5aeea5c84344",CAZAyPESCA HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1693945542?ticket=A6CAAAC29A78AA22A093D5EFA35989E918E64671&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/IBERAL.png" tvg-id="fc3510e3edffc46673fb2668b7844dce",IBERALIA TV
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1662006780?ticket=82CE19D8A9166ECC02AAF6B0CBFC153BDEF508B6&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CFERIA.png" tvg-id="a8339e922d68c84835fec0ef88148c08",TOROS
+http://kabble.duckdns.org:9981/tvh/stream/channelid/312357800?ticket=ED9EC0CCC8E5F1B7CC254DC9CCDFC28D47A13CF5&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CFERIA.png" tvg-id="0d91fe7168c185f617b9fdaf353699c8",TOROS HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1912508685?ticket=D17FD94F850A6A40CD96C464975EB9B78E135691&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/NATGEO.png" tvg-id="23fdfbecdb188aa78046bc49fc6712a3",NAT GEO HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1828453667?ticket=20CE5ABCB4C42E2C519531EDCF8844FB93E7F817&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/NATGW.png" tvg-id="bab109db133040a44ffef6611b78883d",NG WILD HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1527361978?ticket=052B2DB64C018E5CB63B727EB4CFFFA8EB7B3CE4&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/HIST.png" tvg-id="c7a1c40b4c2d5b308e38eccb93274d36",HISTORIA
+http://kabble.duckdns.org:9981/tvh/stream/channelid/197435847?ticket=5EB74F4A229A3B62BA8BD13383DE86A4737D3EBF&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/DCR.png" tvg-id="6954b52dded68cf3bd18874bb5e925b1",DISCOVERY
+http://kabble.duckdns.org:9981/tvh/stream/channelid/766858345?ticket=055C1699B15C47F4B5959A090254FFF16D3ACD48&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/ODISEA.png" tvg-id="6fcab7d1c8650730e37dd11d46efb117",CANAL ODISEA
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1370999407?ticket=3444A25D7B6F1F669F6D307883871C759790DFB0&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/BIOGRA.png" tvg-id="69b838cfca57c74b7c7e407d0fe770d8",BLAZE
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1329117289?ticket=FF13506B8650C4B03B2521D272D8BF295AC56D24&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/VJR.png" tvg-id="0703dbc73fe55bb0232e709e2a9d22bf",M. LaLiga 3 HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/1205535495?ticket=4893F078A04FB004B55AD8AD400A566946296FA2&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CYM.png" tvg-id="87017cb82f053616a03ae1b1b77dcfd4",CRIMEN+INVES
+http://kabble.duckdns.org:9981/tvh/stream/channelid/947650951?ticket=0E5A6509D06FD4E2D6D64F9EA6C432DAE9B18C20&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CACOC.png" tvg-id="0f9672fc593cebdb6073b52cac52c79c",CANAL COCINA
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2087884303?ticket=B07E113C8577B73C2DFED1EAA8A79D5D2F0C4CE1&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/DECASA.png" tvg-id="4afe22b38b0a6ce173f851c0cdda309c",CANAL DECASA
+http://kabble.duckdns.org:9981/tvh/stream/channelid/857931338?ticket=2AAC940E122DEC89034C53667C2562E169D53D8F&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/MEZOHD.png" tvg-id="2dd6defb091806b4f3bc9f90f1a432a2",MEZZO LIVE HD
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2078201389?ticket=906B4F1A4529614A23EE247007A8C0DF57911B5F&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/CLASSI.png" tvg-id="a7dabb34e33ce609896d2ede76b84f95",M.DEPORTES7
+http://kabble.duckdns.org:9981/tvh/stream/channelid/884726439?ticket=A273AC7A18891382A122B2B00E339AED5EF8A4AD&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/PBOY.png" tvg-id="238cbefcbff3f1c57ae126d1ac3159fc",PLAYBOY TV
+http://kabble.duckdns.org:9981/tvh/stream/channelid/2092862499?ticket=BB96DBE47C1F8268D5C20903BDB63C3AED502155&profile=pass
+#EXTINF:-1 logo="http://www.movistarplus.es/recorte/m-NEO/guiapc/LIGBAR.png" tvg-id="03a9910c14c697af0a2e67d2884c3684",LALIGATV BAR
+http://kabble.duckdns.org:9981/tvh/stream/channelid/210872579?ticket=4A3915EEE98E409B80C1079A1D1DEB24AAC0273D&profile=pass
